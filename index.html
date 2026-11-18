@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>speak-bridge</title>
+
+    <!--
+      Loaded here with `crossorigin` (not as a CSS `@import`) so these
+      requests go through CORS mode and satisfy the
+      Cross-Origin-Embedder-Policy: require-corp header set in
+      server/main.py (needed for MediaPipe's fast multi-threaded WASM
+      path). A CSS @import of a cross-origin stylesheet is fetched in
+      no-cors mode by default and can get silently blocked once COEP is
+      enabled — this is the fix for that.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      crossorigin="anonymous"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      crossorigin="anonymous"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

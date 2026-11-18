@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+pillow
+numpy
+elevenlabs==1.8.0
+python-multipart
