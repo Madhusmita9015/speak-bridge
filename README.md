@@ -415,3 +415,5 @@ claimed as full ASL. Expanding it reliably requires a trained sign-language
 model or a fully specified NeuralSeek recognition response contract; adding
 more geometric guesses would make the demo less trustworthy, not more.
 "# speak-bridge" 
+#   s p e a k - b r i d g e  
+ 
