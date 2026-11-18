@@ -414,3 +414,4 @@ The local static sign vocabulary remains intentionally limited. That is not
 claimed as full ASL. Expanding it reliably requires a trained sign-language
 model or a fully specified NeuralSeek recognition response contract; adding
 more geometric guesses would make the demo less trustworthy, not more.
+"# speak-bridge" 
